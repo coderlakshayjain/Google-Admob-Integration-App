@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
                 //here interstitial finish or dismiss or not load after execute
                 val afterIntent= Intent(this,AfterInterstitialFinishedActivity::class.java)
+
                 startActivity(afterIntent)
             }
         }
